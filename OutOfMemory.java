@@ -8,7 +8,7 @@ public class OutOfMemory{
             }
 
         } catch (OutOfMemoryError e) {
-            System.out.println("Out of memory Error.");
+            System.out.println("Out of memory Error." + e);
         }
     }
 }
